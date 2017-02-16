@@ -6,6 +6,7 @@ I'm working on the first one: `QuadBubbleMenu`.
 ### Intro:
 QuadBubbleMenu is a quadrant menu whose item views' shape is circle.
 
-### Aim: 
-+ The expanded shape can be any of the four values: `top_left`, `top_right`, `bottom_right` or `bottom_left`
-as decleared in xml files.
+### Next: 
++ Support to customize axis view's drawable
++ Remove `itemSpace` and change `minDistanceToAxisView` to `distanceToAxisView`
++ Support to set axis view's background using color in xml
