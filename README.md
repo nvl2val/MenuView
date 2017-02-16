@@ -1,5 +1,5 @@
 # MenuView
-This project will contains some custom menu.
+This project will contains some custom menus.
 
 I'm working on the first one: `QuadBubbleMenu`. 
 

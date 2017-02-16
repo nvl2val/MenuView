@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,16 +7,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:gravity="bottom|end"
     tools:context="com.ubux.menuview.MainActivity"
     android:orientation="vertical"
     >
     <com.ubux.quadbubblemenu.QuadBubbleMenu
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:itemRadius="28dp"
+        android:layout_gravity="top|end"
+        app:itemRadius="24dp"
         app:itemSpace="4dp"
-        app:axisViewColor="#ff990099"
+        app:minDistanceToAxisView="96dp"
+        app:axisViewBackground="@color/axisBg1"
+        app:quadrantLocation="bottom_start"
         android:id="@+id/qbMenu"
         />
-</LinearLayout>
+</FrameLayout>

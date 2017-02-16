@@ -49,5 +49,4 @@ class CircleImageView extends ImageView {
         fgBm.recycle();
         shapedBm.recycle();
     }
-
 }
